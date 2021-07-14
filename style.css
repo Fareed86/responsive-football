@@ -13,14 +13,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 120px;
 }
 
 .header-title{
     font-size: 64px;
     font-weight: 700;
     color: #FFFFFF;
-    margin: 0;
+    margin-left: 120px;
 }
 
 .header-link{
@@ -29,6 +28,7 @@ header{
     padding: 10px 24px;
     position: relative;
     top: -60px;
+    margin-left: 120px;
 }
 
 .header-link a,i{
@@ -45,6 +45,7 @@ header{
 .banner img{
     width: 556.01px;
     height: 438px;
+    margin-right: 120px;
 }
 
 /*---------------
@@ -54,7 +55,6 @@ main{
     margin-bottom: 150px;
 }
 .container{
-    padding: 50px;
     display: flex;
     justify-content: center;
     margin-bottom: 135px;
@@ -66,6 +66,7 @@ main{
     grid-row-gap: 30px;
     grid-column-gap: 30px;
     width: 1080px;
+    margin: 50px;
 }
 
 .player{
@@ -97,8 +98,8 @@ Highlight Starts
     width: 1102px;
     border-radius: 20px;
     box-shadow: 1px 1px 20px #2D25A0;
-    padding: 30px;
     background-color: #2D25A0;
+    padding: 30px;
 }
 .highlight-info{
     width: 466px;
@@ -168,15 +169,19 @@ footer p{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin-bottom: 51px;
+        padding: 0;
     }
 
     .header-info{
         width: 70%;
     }
+    .header-title{
+        
+        width: 100%;
+        margin-left: 16px;
+    }
     .header-title h3{
         font-size: 40px;
-        width: 110%;
-        margin-left: 16px;
     }
     .header-link{
         width: 120px;
@@ -190,9 +195,6 @@ footer p{
     }
     
     /* main style */
-    /* .container{
-        padding: 0;
-    } */
     .player{
         display: flex;
         justify-content: center;
@@ -205,7 +207,7 @@ footer p{
         top: -100px;
     }
     .highlight{
-        width: 80%;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         padding-bottom: 190px;
