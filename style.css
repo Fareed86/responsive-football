@@ -14,7 +14,6 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
 .header-title{
     font-size: 64px;
     font-weight: 700;
@@ -176,7 +175,6 @@ footer p{
         width: 70%;
     }
     .header-title{
-        
         width: 100%;
         margin-left: 16px;
     }
