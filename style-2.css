@@ -1,0 +1,77 @@
+/*----------
+ Media Query
+--------- */
+@media only screen and (max-width: 688px) {
+    /* Heading style */
+    header,.players{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 51px;
+    }
+
+    .header-info{
+        width: 70%;
+    }
+    .header-title h3{
+        font-size: 40px;
+        width: 110%;
+        margin-left: 16px;
+    }
+    .header-link{
+        width: 120px;
+        margin-top: 80px;
+        margin-left: 16px;
+    }
+    .banner img{
+        width: 300px;
+        height: 256px;
+        margin-left: 16px;
+    }
+    
+    /* main style */
+    /* .container{
+        padding: 0;
+    } */
+    .player{
+        display: flex;
+        justify-content: center;
+        box-shadow: 1px 1px 40px gray;
+    }
+
+    /* Highlight section */
+    .main-highlight{
+        position: relative;
+        top: -100px;
+    }
+    .highlight{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-bottom: 190px;
+    }
+    .highlight-info{
+        width: 100%;
+    }
+    .highlight-link{
+        position: relative;
+        top: -20px;
+    }
+    .highlight-image img{
+        width: 328px;
+        height: 248px;
+        position: relative;
+        top: 170px;
+    }
+
+    /* footer style */
+    footer{
+        position: relative;
+        top: -180px;
+    }
+    .footer-image img{
+        width: 300px;
+        height: 90px;
+    }
+    
+}
